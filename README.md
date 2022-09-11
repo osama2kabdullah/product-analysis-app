@@ -1,4 +1,4 @@
-# Product Analysis App
+# Product Analysis App ([live site](https://product-analysis-osama.netlify.app/))
 ## What I do in this project
 ***
 A list of technologies used within the project:
@@ -6,4 +6,9 @@ A list of technologies used within the project:
 * React Router Dom v6
 * Rechart v2.1.9
 
-A list of technologies used within the project:
+What I actually do in this project:
+* I create a react app for a laptop buissness analysis.
+* use react router for route page to page and become a single page aplication
+* Using rechart for anylisis the data in dashboard page
+* use tailwind for design all over the application
+* Answering some qoustion in blogs page
