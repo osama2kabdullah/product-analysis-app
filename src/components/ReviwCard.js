@@ -12,47 +12,47 @@ const ReviwCard = ({ review }) => {
       <p className="text-yellow-400">
         {
             (star===1) ? <span>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-regular fa-star"></i>
+                <i className="fa-regular fa-star"></i>
+                <i className="fa-regular fa-star"></i>
+                <i className="fa-regular fa-star"></i>
             </span>:''
         }
         {
             (star===2) ? <span>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-regular fa-star"></i>
+            <i className="fa-regular fa-star"></i>
+            <i className="fa-regular fa-star"></i>
         </span>: ''
         }
         {
             (star===3) ? <span>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-regular fa-star"></i>
+            <i className="fa-regular fa-star"></i>
         </span>: ''
         }
         {
             (star===4) ? <span>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-regular fa-star"></i>
         </span>: ''
         }
         {
             (star===5) ? <span>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
         </span>: ''
         }
       </p>

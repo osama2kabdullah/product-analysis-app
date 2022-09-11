@@ -3,7 +3,7 @@ import useReview from "../hooks/useReview";
 import ReviwCard from "./ReviwCard";
 
 const Review = () => {
-  const [reviews, setReviews] = useReview();
+  const [reviews] = useReview();
   return (
     <div className="m-8">
       <h1 className="text-4xl font-bold p-2 text-center">Reviews</h1>

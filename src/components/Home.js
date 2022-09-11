@@ -4,9 +4,8 @@ import Button from "./Button";
 import ReviwCard from "./ReviwCard";
 
 const Home = () => {
-  const [reviews, setReviews] = useReview();
+  const [reviews] = useReview();
   const selectedReviews = reviews.slice(0, 2);
-  console.log(selectedReviews);
   return (
     <div>
       <div className="grid grid-cols-2 mt-0 gap-5 m-16 items-center">
