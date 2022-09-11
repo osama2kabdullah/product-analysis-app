@@ -7,7 +7,7 @@ export const ChartdataContext = React.createContext('hello')
 
 const Dashboard = () => {
     
-    const [datas, setDatas] = useChartdata();
+    const [datas] = useChartdata();
     
     return (
         <ChartdataContext.Provider value={datas}>
