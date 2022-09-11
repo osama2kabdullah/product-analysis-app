@@ -4,7 +4,6 @@ import ReviwCard from "./ReviwCard";
 
 const Review = () => {
   const [reviews, setReviews] = useReview();
-  console.log(reviews);
   return (
     <div className="m-8">
       <h1 className="text-4xl font-bold p-2 text-center">Reviews</h1>
