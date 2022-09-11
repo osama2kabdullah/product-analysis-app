@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import { Route, Routes } from 'react-router-dom';
@@ -10,7 +9,7 @@ import NotFoundPage from './components/NotFoundPage';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
